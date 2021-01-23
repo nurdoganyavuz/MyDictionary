@@ -43,7 +43,7 @@ namespace MyDictionary
             {
                 values[j] = tempArrayValue[j];
             }
-            values[values.Length - 1] = value; //sözlüğün sonunda eklemek için son index'e atarız girilen value'u.
+            values[values.Length - 1] = value; //sözlüğün sonunda eklemek için son index'e atarız girilen value'yu.
         }
 
         public void GetAll() //key ve valueları listeleme metodu
